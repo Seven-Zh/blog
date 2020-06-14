@@ -1,0 +1,22 @@
+{{extend './layout.art'}}
+{{block 'link'}}
+    <style>
+        p{
+            height: 100px;
+            width: 300px;
+            margin: 200px auto;
+            text-align:center;
+            line-height: 100px;
+            background: pink;
+            font-size: 12px;
+        }
+    </style>
+{{/block}}
+{{block 'main'}}
+    <p> {{msg}}</p>
+    <script>
+    setTimeout(function() {
+        location.href = '/admin/login';
+    },3000);
+    </script>
+{{/block}}

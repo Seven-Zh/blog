@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="/home/css/base.css">
+	<script src="/admin/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/admin/lib/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/admin/lib/bootstrap/css/bootstrap.min.css">
+{{block 'link'}}{{/block}}
+</head>
+<body>
+{{block 'main'}}{{/block}}
+{{block 'script'}}{{/block}}
+</body>
+</html>
